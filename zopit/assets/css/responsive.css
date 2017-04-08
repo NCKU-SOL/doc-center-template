@@ -1,0 +1,56 @@
+.slicknav_menu {
+	display: none;
+}
+
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.slicknav_menu {
+		display: block;
+		padding: 0;
+	}
+
+	#navigation-wrapper,
+	.sub-menu .menu-item-has-children> a:after,
+	.menu-item-has-children> a:after{
+		display:none;
+	}
+
+	.post-thumb img{
+		width: 100%;
+	}
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+	.slicknav_menu {
+		display: block;
+		padding: 0;
+	}
+
+	#navigation-wrapper,
+	.sub-menu .menu-item-has-children> a:after,
+	.menu-item-has-children> a:after{
+		display:none;
+	}
+
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+
+
+}
